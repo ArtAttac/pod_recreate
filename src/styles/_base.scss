@@ -1,0 +1,74 @@
+:root {
+  // colors
+  --color-white: #fff;
+  --color-black: #121725;
+  --color-cyan: #54E6AF;
+  --color-dark-blue: #2C344B;
+  --color-light-blue: #C2CBE5;
+
+  // Font Weights
+  --weight-light: 300;
+  --weight-bold: 700;
+
+  // Design Elements
+  --transition: 300ms ease-in-out;
+}
+
+// reset
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+html, body, #root, .App {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-size: 1.6rem;
+  font-family: 'Chivo', sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--color-black);
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+button {
+  padding: 0;
+  border: none;
+  background-color: none;
+  font-family: 'Chivo', sans-serif;
+}
+button:focus {
+  outline: none;
+}
+
+input {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: 'Chivo', sans-serif;
+}
+
+input:focus {
+  outline: none;
+}
+
+#root {
+  @media (min-width: 1366px) {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
