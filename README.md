@@ -1,4 +1,4 @@
-# pod_recreate
+# Pod Recreate
 A recreation of a the Pod design website from Frontend Mentor using React and Sass
 
 This is the original design to be copied from.
@@ -9,3 +9,4 @@ This is the final image recreation(with additional designs added)
 
 <img src="https://i.imgur.com/0jXZVZf.png"/>
 
+<a href="https://quizzical-rosalind-e802d2.netlify.app/">Live file is here</a> 
